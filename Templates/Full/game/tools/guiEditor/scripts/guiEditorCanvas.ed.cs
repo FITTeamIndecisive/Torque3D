@@ -196,6 +196,7 @@ function GuiEditCanvas::onCreateMenu(%this)
          item[3] = "-";
          item[4] = "Torque 3D Public Forums..." TAB "" TAB "gotoWebPage( \"http://www.garagegames.com/community/forums/73\" );";
          item[5] = "Torque 3D Private Forums..." TAB "" TAB "gotoWebPage( \"http://www.garagegames.com/community/forums/63\" );";
+		 item[6] = "Contributors: Team Indecisive";
       };
    };
    %this.menuBar.attachToCanvas( Canvas, 0 );
